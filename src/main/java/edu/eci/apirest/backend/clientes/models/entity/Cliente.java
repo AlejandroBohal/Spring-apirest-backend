@@ -32,7 +32,7 @@ public class Cliente implements Serializable{
 	private String nombre;
 	@Column(nullable=false,length=100)
 	private String apellido;
-	@Column(nullable=false,length=100)
+	@Column(nullable=false,unique=true,length=100)
 	private String email;
 	@Column(name="create_at",nullable=false)
 	@Temporal(TemporalType.DATE)
