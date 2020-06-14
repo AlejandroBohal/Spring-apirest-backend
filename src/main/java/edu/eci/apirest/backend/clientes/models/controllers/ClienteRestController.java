@@ -1,9 +1,13 @@
 package edu.eci.apirest.backend.clientes.models.controllers;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -29,9 +33,24 @@ public class ClienteRestController {
 		return clienteService.findAll();
 	}
 	@GetMapping("/clientes/{id}")
-	public Cliente show (@PathVariable Long id) {
-		return clienteService.findById(id);
+	public ResponseEntity<?> show (@PathVariable Long id) {
+		Cliente cliente = null;
+		Map<String,Object> response = new HashMap<>();
+		try {
+			cliente = clienteService.findById(id);
+		} catch(DataAccessException e) {
+			response.put("mensaje","Error al consultar en base de datos!");
+			response.put("error",e.getMessage() + " "+ e.getMostSpecificCause());
+			return new ResponseEntity<Map<String,Object>>(response,HttpStatus.NOT_FOUND);			
+		}		
+		if (cliente == null) {
+			response.put("mensaje","El cliente Id:"+id.toString()+"no existe en la base de datos!");
+			return new ResponseEntity<Map<String,Object>>(response,HttpStatus.NOT_FOUND);
+		}
+		return new ResponseEntity<Cliente>(cliente,HttpStatus.OK);
+		
 	}
+	
 	@PostMapping("/clientes")
 	@ResponseStatus(HttpStatus.CREATED)
 	public Cliente create (@RequestBody Cliente cliente) {
