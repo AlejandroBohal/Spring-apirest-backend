@@ -16,5 +16,5 @@ Run `mvn surefire`.
 
 ## Further help
 
-To get more help on the Angular CLI use https://docs.spring.io/.
+To get more help on the Spring use https://docs.spring.io/.
 
