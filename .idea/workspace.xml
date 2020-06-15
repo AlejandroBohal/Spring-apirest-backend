@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9082f8d4-6066-442d-9094-91d2be7f261e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/ApirestBackendClientesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/ApirestBackendClientesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/apirest/backend/clientes/ApirestBackendClientesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/apirest/backend/clientes/ApirestBackendClientesApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/apirest/backend/clientes/ApirestBackendClientesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/apirest/backend/clientes/ApirestBackendClientesApplication.class" afterDir="false" />
-    </list>
+    <list default="true" id="9082f8d4-6066-442d-9094-91d2be7f261e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
