@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9082f8d4-6066-442d-9094-91d2be7f261e" name="Default Changelist" comment="" />
+    <list default="true" id="9082f8d4-6066-442d-9094-91d2be7f261e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/apirest-backend-clientes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apirest-backend-clientes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/apirest/backend/clientes/ApirestBackendClientesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/apirest/backend/clientes/ApirestBackendClientesApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/eci/apirest/backend/clientes/ApirestBackendClientesApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/eci/apirest/backend/clientes/ApirestBackendClientesApplicationTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +21,89 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1dKudKU567oIg7riITQOo5ENg3v" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="JUnit.ApirestBackendClientesApplicationTests">
+    <configuration name="ApirestBackendClientesApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apirest-backend-clientes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.eci.apirest.backend.clientes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.eci.apirest.backend.clientes" />
+      <option name="MAIN_CLASS_NAME" value="edu.eci.apirest.backend.clientes.ApirestBackendClientesApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApirestBackendClientesApplicationTests.testListAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apirest-backend-clientes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.eci.apirest.backend.clientes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.eci.apirest.backend.clientes" />
+      <option name="MAIN_CLASS_NAME" value="edu.eci.apirest.backend.clientes.ApirestBackendClientesApplicationTests" />
+      <option name="METHOD_NAME" value="testListAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApirestBackendClientesApplicationTests" />
+        <item itemvalue="JUnit.ApirestBackendClientesApplicationTests.testListAll" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9082f8d4-6066-442d-9094-91d2be7f261e" name="Default Changelist" comment="" />
+      <created>1592186215289</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592186215289</updated>
+    </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="147" key="GridCell.Tab.0.bottom" timestamp="1592187169131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="147" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592187169131" />
+    <state width="1323" height="147" key="GridCell.Tab.0.center" timestamp="1592187169131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="147" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592187169131" />
+    <state width="1323" height="147" key="GridCell.Tab.0.left" timestamp="1592187169130">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="147" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592187169130" />
+    <state width="1323" height="147" key="GridCell.Tab.0.right" timestamp="1592187169131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="147" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592187169131" />
+    <state x="217" y="17" key="SettingsEditor" timestamp="1592188866179">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="217" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592188866179" />
   </component>
 </project>
