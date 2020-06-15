@@ -36,5 +36,4 @@ public class ApirestBackendClientesApplicationTests {
     System.out.println(responseJson.toString());
     assertTrue(responseJson.toString().contains("{\"id\":1,\"nombre\":\"Jonas\",\"apellido\":\"CourtenayY\",\"email\":\"jcourtenay0@com.com\",\"createAt\":\"2019-11-14\"}"));
   }
-  
 }
