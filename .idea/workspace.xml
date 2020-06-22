@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9082f8d4-6066-442d-9094-91d2be7f261e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/apirest-backend-clientes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apirest-backend-clientes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/apirest/backend/clientes/ClientRestControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/apirest/backend/clientes/ClientRestControllerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
@@ -108,22 +108,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1592191844859" />
-    <state width="1323" height="218" key="GridCell.Tab.0.bottom" timestamp="1592256590958">
+    <state width="1323" height="213" key="GridCell.Tab.0.bottom" timestamp="1592863792705">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="218" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592256590958" />
-    <state width="1323" height="218" key="GridCell.Tab.0.center" timestamp="1592256590958">
+    <state width="1323" height="213" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592863792705" />
+    <state width="1323" height="213" key="GridCell.Tab.0.center" timestamp="1592863792704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="218" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592256590958" />
-    <state width="1323" height="218" key="GridCell.Tab.0.left" timestamp="1592256590958">
+    <state width="1323" height="213" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592863792704" />
+    <state width="1323" height="213" key="GridCell.Tab.0.left" timestamp="1592863792704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="218" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592256590958" />
-    <state width="1323" height="218" key="GridCell.Tab.0.right" timestamp="1592256590958">
+    <state width="1323" height="213" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592863792704" />
+    <state width="1323" height="213" key="GridCell.Tab.0.right" timestamp="1592863792705">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="218" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592256590958" />
+    <state width="1323" height="213" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592863792705" />
     <state x="217" y="17" key="SettingsEditor" timestamp="1592188866179">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
