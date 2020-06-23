@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 import edu.eci.apirest.backend.clientes.models.entity.Cliente;
 import edu.eci.apirest.backend.clientes.models.services.IClienteService;
 
-@CrossOrigin(origins= {"https://clientes-appng.web.app/"})
+@CrossOrigin(origins= {"https://clientes-appng.web.app"})
 @RestController
 @RequestMapping("/api")
 public class ClienteRestController {
