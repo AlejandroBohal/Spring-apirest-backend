@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9082f8d4-6066-442d-9094-91d2be7f261e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/apirest-backend-clientes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apirest-backend-clientes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/models/controllers/ClienteRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/models/controllers/ClienteRestController.java" afterDir="false" />
     </list>
