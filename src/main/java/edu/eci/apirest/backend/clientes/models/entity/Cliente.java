@@ -12,6 +12,9 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 
 /**
  * @author AlejandroB
@@ -28,12 +31,21 @@ public class Cliente implements Serializable{
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private long id;
+
+	@NotEmpty
+	@Size(min=4,max=25)
 	@Column(nullable=false,length=100)
 	private String nombre;
+
+	@NotEmpty
 	@Column(nullable=false,length=100)
 	private String apellido;
+
+	@NotEmpty
+	@Email
 	@Column(nullable=false,unique=true,length=100)
 	private String email;
+
 	@Column(name="create_at",nullable=false)
 	@Temporal(TemporalType.DATE)
 	private Date createAt;
