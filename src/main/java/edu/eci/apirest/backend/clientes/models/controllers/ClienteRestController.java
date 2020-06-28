@@ -18,7 +18,7 @@ import edu.eci.apirest.backend.clientes.models.services.IClienteService;
 
 import javax.validation.Valid;
 
-@CrossOrigin(origins= {"https://clientes-appng.web.app","http://localhost:4200"})
+@CrossOrigin(origins= {"https://clientes-appng.web.app"})
 @RestController
 @RequestMapping("/api")
 public class ClienteRestController {
