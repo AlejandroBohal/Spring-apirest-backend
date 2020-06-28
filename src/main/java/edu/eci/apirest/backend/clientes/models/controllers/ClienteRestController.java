@@ -21,7 +21,7 @@ import edu.eci.apirest.backend.clientes.models.services.IClienteService;
 
 import javax.validation.Valid;
 
-@CrossOrigin(origins= {"http:localhost:4200"})
+@CrossOrigin(origins= {"http://localhost:4200"})
 //@CrossOrigin(origins= {"https://clientes-appng.web.app"})
 @RestController
 @RequestMapping("/api")
@@ -51,7 +51,7 @@ public class ClienteRestController {
 		
 	}
 
-	@GetMapping("/clientes/page/")
+	@GetMapping("/clientes/page/{page}")
 	public Page<Cliente> index(@PathVariable Integer page){
 		Pageable pageable = PageRequest.of(page,6);
 		return clienteService.findAll(pageable);

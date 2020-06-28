@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9082f8d4-6066-442d-9094-91d2be7f261e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/apirest-backend-clientes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apirest-backend-clientes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/models/controllers/ClienteRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/models/controllers/ClienteRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/models/persistence/IClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/models/persistence/IClienteDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/models/services/ClienteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/models/services/ClienteServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/models/services/IClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/models/services/IClienteService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,22 +105,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593319267111" />
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1593312474946">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1593320389785">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593312474946" />
-    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1593312474946">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593320389785" />
+    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1593320389784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593312474946" />
-    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1593312474946">
+    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593320389784" />
+    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1593320389784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593312474945" />
-    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1593312474946">
+    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593320389784" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1593320389785">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593312474946" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593320389785" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1593230049863">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
