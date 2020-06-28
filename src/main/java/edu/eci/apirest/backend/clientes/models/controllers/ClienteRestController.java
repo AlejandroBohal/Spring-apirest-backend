@@ -11,7 +11,6 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
 
 import edu.eci.apirest.backend.clientes.models.entity.Cliente;
@@ -19,7 +18,7 @@ import edu.eci.apirest.backend.clientes.models.services.IClienteService;
 
 import javax.validation.Valid;
 
-@CrossOrigin(origins= {"https://clientes-appng.web.app"})
+@CrossOrigin(origins= {"https://clientes-appng.web.app","http://localhost:4200"})
 @RestController
 @RequestMapping("/api")
 public class ClienteRestController {
@@ -54,7 +53,7 @@ public class ClienteRestController {
 		Cliente clienteNuevo = null;
 		Map<String,Object> response = new HashMap<>();
 		if (result.hasErrors()){
-			System.out.println("Hola");
+
 			/*List<String> errors = new ArrayList<>();
 			for (FieldError err : result.getFieldErrors()){
 				errors.add("El campo '" + err.getField() + "' "+err.getDefaultMessage());
