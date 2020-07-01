@@ -22,6 +22,8 @@
     <list default="true" id="9082f8d4-6066-442d-9094-91d2be7f261e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/models/controllers/ClienteRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/apirest/backend/clientes/models/controllers/ClienteRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/6dc6aa3a-90d4-4dca-a4e7-1910b0648c7b_cualidades-persona-humanitaria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/941f1936-8e64-4f64-b953-671be0a7eb19_cualidades-persona-humanitaria.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +121,11 @@
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> v1.3.5
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -128,12 +135,18 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> v1.3.5
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1593319267111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593319267111" />
+<<<<<<< HEAD
     <state width="637" height="202" key="GridCell.Tab.0.bottom" timestamp="1593567700279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -150,6 +163,43 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="637" height="202" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593567700279" />
+=======
+<<<<<<< Updated upstream
+    <state width="1323" height="44" key="GridCell.Tab.0.bottom" timestamp="1593576478305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="44" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593576478305" />
+    <state width="1323" height="44" key="GridCell.Tab.0.center" timestamp="1593576478305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="44" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593576478305" />
+    <state width="1323" height="44" key="GridCell.Tab.0.left" timestamp="1593576478305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="44" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593576478305" />
+    <state width="1323" height="44" key="GridCell.Tab.0.right" timestamp="1593576478305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="44" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593576478305" />
+=======
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom" timestamp="1593584685144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593584685144" />
+    <state width="1323" height="190" key="GridCell.Tab.0.center" timestamp="1593584685144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593584685144" />
+    <state width="1323" height="190" key="GridCell.Tab.0.left" timestamp="1593584685144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593584685144" />
+    <state width="1323" height="190" key="GridCell.Tab.0.right" timestamp="1593584685144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593584685144" />
+>>>>>>> Stashed changes
+>>>>>>> v1.3.5
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1593230049863">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
