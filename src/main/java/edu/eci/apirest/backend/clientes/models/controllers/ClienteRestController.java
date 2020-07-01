@@ -9,6 +9,8 @@ import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
@@ -35,6 +37,8 @@ import javax.validation.Valid;
 public class ClienteRestController {
 	@Autowired
 	private IClienteService clienteService;
+	private final Logger log = LoggerFactory.getLogger(ClienteRestController.class);
+
 	@GetMapping("/clientes")
 	public List<Cliente> index(){
 		return clienteService.findAll();
@@ -162,8 +166,10 @@ public class ClienteRestController {
 	    Map<String,Object> response = new HashMap<>();
 	    Cliente cliente = clienteService.findById(id);
 	    if (!file.isEmpty()){
-	       String fileName = UUID.randomUUID().toString() +"_"+ Objects.requireNonNull(file.getOriginalFilename()).replace(" ","_");
+
+	       	String fileName = UUID.randomUUID().toString() +"_"+ Objects.requireNonNull(file.getOriginalFilename()).replace(" ","_");
             Path filePath = Paths.get("uploads").resolve(fileName).toAbsolutePath();
+			log.info(filePath.toString());
             try {
                 Files.copy(file.getInputStream(),filePath);
             } catch (IOException e) {
@@ -181,6 +187,7 @@ public class ClienteRestController {
     @GetMapping("/uploads/img/{nombreFoto:.+}")
     public ResponseEntity<Resource> verFoto (@PathVariable String nombreFoto){
 		Path rutaArchivo = Paths.get("uploads").resolve(nombreFoto).toAbsolutePath();
+		log.info(rutaArchivo.toString());
 		Resource recurso = null;
 		try{
 			recurso = new UrlResource(rutaArchivo.toUri());
