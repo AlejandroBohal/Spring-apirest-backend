@@ -32,8 +32,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.Valid;
 
-@CrossOrigin(origins= {"http://localhost:4200"})
-//@CrossOrigin(origins= {"https://clientes-appng.web.app"})
+//@CrossOrigin(origins= {"http://localhost:4200"})
+@CrossOrigin(origins= {"https://clientes-appng.web.app"})
 @RestController
 @RequestMapping("/api")
 public class ClienteRestController {
