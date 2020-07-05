@@ -1,6 +1,8 @@
 edu\eci\apirest\backend\clientes\models\persistence\IClienteDAO.class
+edu\eci\apirest\backend\clientes\models\services\IUploadFileService.class
 edu\eci\apirest\backend\clientes\models\controllers\ClienteRestController.class
 edu\eci\apirest\backend\clientes\models\entity\Cliente.class
+edu\eci\apirest\backend\clientes\models\services\UploadFileServiceImpl.class
 edu\eci\apirest\backend\clientes\models\services\ClienteServiceImpl.class
 edu\eci\apirest\backend\clientes\models\services\IClienteService.class
 edu\eci\apirest\backend\clientes\ApirestBackendClientesApplication.class
