@@ -6,3 +6,4 @@ edu\eci\apirest\backend\clientes\models\services\UploadFileServiceImpl.class
 edu\eci\apirest\backend\clientes\models\services\ClienteServiceImpl.class
 edu\eci\apirest\backend\clientes\models\services\IClienteService.class
 edu\eci\apirest\backend\clientes\ApirestBackendClientesApplication.class
+edu\eci\apirest\backend\clientes\models\entity\Region.class

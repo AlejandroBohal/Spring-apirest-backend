@@ -8,6 +8,7 @@ import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 
+import edu.eci.apirest.backend.clientes.models.entity.Region;
 import edu.eci.apirest.backend.clientes.models.services.IUploadFileService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -106,7 +107,9 @@ public class ClienteRestController {
 		clienteActual.setApellido(cliente.getApellido());
 		clienteActual.setNombre(cliente.getNombre());
 		clienteActual.setEmail(cliente.getEmail());
-		clienteActual.setEmail(cliente.getEmail());
+		clienteActual.setCreateAt(cliente.getCreateAt());
+		clienteActual.setRegion(cliente.getRegion());
+
 	}
 	@PutMapping("/clientes/{id}")
 	public ResponseEntity<?> update (@Valid @RequestBody Cliente cliente,BindingResult result,@PathVariable Long id ) {
@@ -195,5 +198,9 @@ public class ClienteRestController {
 
 		return new ResponseEntity<Resource>(recurso, cabecera, HttpStatus.OK);
 
+	}
+	@GetMapping("/clientes/regiones")
+	public List<Region> listarRegiones(){
+		return clienteService.findAllRegiones();
 	}
 }

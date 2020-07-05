@@ -3,6 +3,7 @@ package edu.eci.apirest.backend.clientes.models.services;
 import java.util.List;
 
 import edu.eci.apirest.backend.clientes.models.entity.Cliente;
+import edu.eci.apirest.backend.clientes.models.entity.Region;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
@@ -17,4 +18,5 @@ public interface IClienteService {
 	public Cliente save(Cliente cliente);
 	public void delete(Long id);
 	public Cliente findById(Long id);
+	public List<Region> findAllRegiones();
 }

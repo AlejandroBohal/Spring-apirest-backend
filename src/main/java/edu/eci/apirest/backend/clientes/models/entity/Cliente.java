@@ -1,16 +1,11 @@
 package edu.eci.apirest.backend.clientes.models.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.io.Serializable;
 import java.util.Date;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
+import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
@@ -52,6 +47,12 @@ public class Cliente implements Serializable{
 	private Date createAt;
 
 	private String foto;
+
+	@NotNull(message="la región no puede ser vacía.")
+	@ManyToOne(fetch=FetchType.LAZY)
+	@JoinColumn(name="region_id")
+	@JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
+	private Region region;
 
 	public long getId() {
 		return id;
@@ -99,5 +100,13 @@ public class Cliente implements Serializable{
 
 	public void setFoto(String foto) {
 		this.foto = foto;
+	}
+
+	public Region getRegion() {
+		return region;
+	}
+
+	public void setRegion(Region region) {
+		this.region = region;
 	}
 }
