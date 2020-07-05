@@ -2,6 +2,7 @@ package edu.eci.apirest.backend.clientes.models.services;
 
 import java.util.List;
 
+import edu.eci.apirest.backend.clientes.models.entity.Region;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -49,6 +50,12 @@ public class ClienteServiceImpl implements IClienteService {
 	@Transactional(readOnly = true)
 	public Cliente findById(Long id) {
 		return clienteDAO.findById(id).orElse(null);
+	}
+
+	@Override
+	@Transactional(readOnly = true)
+	public List<Region> findAllRegiones() {
+		return clienteDAO.findAllRegiones();
 	}
 
 }
